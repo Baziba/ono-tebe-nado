@@ -27,10 +27,6 @@
   list-style: none;
 }
 
-.header__link{
-
-}
-
 .header__link_active{
   text-decoration: none;
 }
@@ -304,13 +300,6 @@
   list-style: none;
 }
 
-.footer__menu-list-item{
-
-}
-
-.footer__menu-link{
-
-}
 
 .footer__menu-link_active{
   text-decoration: none;
@@ -324,14 +313,6 @@
   justify-content: flex-end;
   gap: 48px;
   list-style: none;
-}
-
-.footer__social-list-item {
-
-}
-
-.footer__social-link{
-  
 }
 
 .footer__social-icon{
