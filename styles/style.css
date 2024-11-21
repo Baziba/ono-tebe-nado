@@ -57,6 +57,7 @@
 }
 
 .address a {
+  display: block;
   letter-spacing: .01em;
 }
 
@@ -66,8 +67,7 @@
   flex-direction: column;
   width: 100%;
   text-transform: uppercase;
-  background: url("../images/cover.jpg") no-repeat center;
-  background-size: cover;
+  background: url(../images/cover.jpg) no-repeat center / cover;
 }
 
 .cover__title {
@@ -94,6 +94,7 @@
   align-self: center;
   color: white;
   font-size: 22px;
+  word-spacing: 20px;
 }
 
 .bet-button {
@@ -123,42 +124,6 @@
 
 .letter-spacing-extended {
   letter-spacing: .6em;
-}
-
-.letter-spacing-negative-1 {
-  letter-spacing: -0.01em;
-}
-
-.letter-spacing-1 {
-  letter-spacing: 0.01em;
-}
-
-.letter-spacing-2 {
-  letter-spacing: 0.02em;
-}
-
-.letter-spacing-3 {
-  letter-spacing: 0.03em;
-}
-
-.letter-spacing-4 {
-  letter-spacing: 0.04em;
-}
-
-.letter-spacing-13 {
-  letter-spacing: .13em;
-}
-
-.letter-spacing-80 {
-  letter-spacing: 0.8em;
-}
-
-.letter-spacing-90 {
-  letter-spacing: 0.9em;
-}
-
-.letter-spacing-110 {
-  letter-spacing: 1.1em;
 }
 
 .no-letter-spacing {
@@ -202,19 +167,18 @@
   height: 563px;
   padding: 51px 40px 48px;
   font-size: 20px;
+  background-size: cover;
 }
 
 .card_type_film {
   background: url("../images/card-lot-01.jpg") no-repeat center;
-  background-size: cover;
+  
 }
 .card_type_book {
   background: url("../images/card-lot-02.jpg") no-repeat center;
-  background-size: cover;
 }
 .card_type_picture {
   background: url("../images/card-lot-03.jpg") no-repeat center;
-  background-size: cover;
 }
 
 .card__title {
@@ -323,8 +287,4 @@
   position: absolute;
   inset: 0;
   background-color: rgb(0 0 0/0.6);
-}
-
-a {
-  text-underline-offset: 4px;
 }
